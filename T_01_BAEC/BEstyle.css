@@ -38,6 +38,7 @@ header ul li {
 /*-------------------Main Contents---------------*/
 
 body{
+	background-color: #483C32;
 	min-height: 100vh;
 	margin: 0;
 	display: grid;
@@ -103,42 +104,6 @@ home-block aside h3{
 	font-size:32px;
 }
 
-form{
-	text-align:center;
-	font-size:30px;
-	background-color:#E3DBAF;
-	padding:10px;
-	margin:10px;
-	box-shadow:3px 3px 3px 2px #797979;
-	border-radius:25px;
-}
-
-form h1{
-	text-align:center;
-	font-size:60px;
-	padding:20px;
-}
-/*--------------Information Gathering------------------*/
-emlbtn{
-	display:flex;
-	float:none;
-	font-size:40px;
-	color:white;
-	text-decoration:none;
-	background-color:#38C501;
-	padding:10px;
-	border-radius:20px;
-	margin:0 auto;
-	width:20%;
-	margin-top:20px;
-	margin-bottom:10px;
-}
-
-emlbtn a{
-	text-decoration:none;
-	margin:0 auto;
-	color:#F9FAFA;
-}
 
 table{
 	background-color:#8FFF63;
@@ -184,23 +149,6 @@ section{
 	font-size:60px;
 }
 
-iframe.map{
-	float:right;
-	border-radius:25px;
-	margin-top:20px;
-	width:100%;
-	height:50%;
-	display:inline-block;
-}
-
-iframe.yt{
-	float:left;
-	border-radius:25px;
-	margin-top:20px;
-	width:100%;
-	height:50%;
-	display:inline-block;
-}
 
 /*----------------------Header & Footer-----------------------------------------*/
 
@@ -277,14 +225,5 @@ footer a:hover {
 	color: #3DE8FE;
 }
 
-/*-------------------Fade Animation-----------------------*/
 
-.fade {
-  opacity: 1;
-  transition: opacity 0.5s ease; /* adjust speed */
-}
-
-.fade.hidden {
-  opacity: 0;
-}
 
