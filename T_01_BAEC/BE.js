@@ -4,7 +4,7 @@ function goTelevisions(){
 	window.location.href ="televisions.html";
 }
 function goHome(){
-	window.location.href ="home.html";
+	window.location.href ="index.html";
 }
 
 function goAboutUs(){
