@@ -1,0 +1,290 @@
+//**--------------Dropdown----------------**//
+
+header ul li {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 150px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  background: #f0f0f0;
+}
+
+
+/*-------------------Main Contents---------------*/
+
+body{
+	min-height: 100vh;
+	margin: 0;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+
+}
+
+home-block{
+	color:black;
+	background-color:#C0BA94;
+	padding:10px;
+	margin:100px;
+	width:80%;
+	display: inline-block;
+	height:100% auto;
+	box-shadow:3px 3px 3px 2px #797979;
+	margin-bottom:80px;
+	border-radius:25px;
+}
+
+
+home-block h2{
+	font-size:200%;
+	font-family:Arial;
+	text-align:center;
+}
+
+home-block h2 clr{
+	color:#38C501;
+	text-shadow:2px 2px 2px #aaaaaa;
+}
+
+home-block h2.act{
+	color:#CFFEBC;
+	text-shadow:2px 2px 2px #aaaaaa;
+	font-family:Arial;
+}
+
+home-block aside{
+	margin-top:30px;
+	float:right;
+	width:40%;
+	text-decoration:none;
+	color:black;
+	background-color:#E3DBAF;
+	padding:40px;
+	box-shadow:3px 3px 3px 2px #797979;
+	border-radius:25px;
+}
+
+home-block aside.left{
+	float:left;
+	width:35%;
+}
+
+
+home-block aside h1{
+	font-size:60px;
+	padding-top:0px;
+}
+
+home-block aside h3{
+	font-size:32px;
+}
+
+form{
+	text-align:center;
+	font-size:30px;
+	background-color:#E3DBAF;
+	padding:10px;
+	margin:10px;
+	box-shadow:3px 3px 3px 2px #797979;
+	border-radius:25px;
+}
+
+form h1{
+	text-align:center;
+	font-size:60px;
+	padding:20px;
+}
+/*--------------Information Gathering------------------*/
+emlbtn{
+	display:flex;
+	float:none;
+	font-size:40px;
+	color:white;
+	text-decoration:none;
+	background-color:#38C501;
+	padding:10px;
+	border-radius:20px;
+	margin:0 auto;
+	width:20%;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+emlbtn a{
+	text-decoration:none;
+	margin:0 auto;
+	color:#F9FAFA;
+}
+
+table{
+	background-color:#8FFF63;
+	font-family:arial;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+home-block img.profile{
+	float: none;
+	display:block;
+	margin: auto;
+	width:30%;
+	border-style:groove;
+	padding:20px;
+}
+
+home-block img{
+	float:left;
+	width:50%;
+}
+
+#txtboxh{
+	height:30px;
+	font-size:30px;
+}
+
+#pdtimg{
+	float: none;
+	display:block;
+	margin: auto;
+	width:29%;
+	padding:20px;
+	display:inline-block;
+	border-radius:25px;
+}
+
+section{
+	float:right;
+	font-size:40px;
+	padding-left:20px;
+	font-size:60px;
+}
+
+iframe.map{
+	float:right;
+	border-radius:25px;
+	margin-top:20px;
+	width:100%;
+	height:50%;
+	display:inline-block;
+}
+
+iframe.yt{
+	float:left;
+	border-radius:25px;
+	margin-top:20px;
+	width:100%;
+	height:50%;
+	display:inline-block;
+}
+
+/*----------------------Header & Footer-----------------------------------------*/
+
+logo{
+ font-size: 50px;
+  color: white;
+  font-family: Courier;
+  margin-right: 60px; 
+}
+
+header{
+	min-height: 50px;
+	display: flex;              
+	align-items: center;       
+	justify-content: flex-start;
+	background-color: #C2B280;
+	margin-bottom: 30px;
+	overflow: visible;          
+	padding: 10px 20px;         
+
+
+}
+
+header ul{
+	padding:10px;
+	list-style-type:none;
+}
+header ul li{
+	display:inline-block;
+	position:relative;
+}
+
+header a.main{
+	float: left;
+	font-size: 20px;
+	color: white;
+	text-shadow:2px 2px 2px #aaaaaa;
+	text-align: center;
+	padding: 14px 14px;
+	text-decoration: none;
+	border-radius:25px;
+	background-color:#483C32;
+	margin-right:10px;
+}
+
+header a.main:hover{
+	background-color:#ACD0B4;
+	border-radius: 25px;
+}
+
+
+#active{
+	background-color:#E3DBAF;
+	color:#010101;
+}
+
+
+footer{
+	min-height:50px;
+	background-color: #C2B280;
+
+}
+
+footer a{
+	margin-left:100px;
+	margin-top:auto;
+	font-size:20px;
+	color:#EFFEE9;
+	text-decoration:none;
+	height:20%;
+}
+
+footer a:hover {
+	color: #3DE8FE;
+}
+
+/*-------------------Fade Animation-----------------------*/
+
+.fade {
+  opacity: 1;
+  transition: opacity 0.5s ease; /* adjust speed */
+}
+
+.fade.hidden {
+  opacity: 0;
+}
+
